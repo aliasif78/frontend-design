@@ -57,9 +57,13 @@ const page = () => {
         <div className="flex h-full w-full flex-row items-center justify-between px-[4rem]">
           {/* Left */}
           <div className="flex w-1/2 flex-col gap-6">
+            {/* Title */}
             <h1 className="text-5xl font-bold 2xl:text-6xl">Unleash Your Inner Wizard of Wisdom</h1>
+
+            {/* Description */}
             <p className="pr-[5rem] text-lg 2xl:text-xl">Embark on a journey of knowledge exploration with our extensive collection of interactive quizzes.</p>
 
+            {/* Button */}
             <button className="w-fit cursor-pointer rounded-full bg-[#984EFF] px-4 py-2 text-white transition duration-300 hover:bg-[#7f65a3]">Get it now</button>
           </div>
 
