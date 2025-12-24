@@ -9,8 +9,6 @@ import Link from 'next/link';
 
 // Assets
 import bg from './assets/bg.webp';
-// import ring from './assets/ring.webp';
-// import cube from './assets/cube.webp';
 
 // Dependencies
 import { FaGithub } from 'react-icons/fa6';
@@ -30,17 +28,13 @@ const page = () => {
       <Image src={bg} alt="bg" priority className="absolute inset-0 h-full w-full object-cover" />
 
       <div className="relative z-10 h-[85vh] w-[85vw] overflow-hidden rounded-4xl border border-white bg-white/30 bg-gradient-to-br from-[#984EFF]/30 to-[#DFDBE9]/30 backdrop-blur-[7px]">
-        {/* Images */}
-        {/* <Image src={ring} alt="ring" className="absolute top-0 right-0" />
-        <Image src={cube} alt="cube" className="absolute bottom-0 left-0" /> */}
-
         {/* Navbar */}
         <div className="absolute top-0 left-0 flex w-full flex-row items-center justify-between px-8 py-4">
           {/* Title */}
           <h2 className="text-2xl font-bold">QuizTower</h2>
 
           {/* Links */}
-          <div className="flex w-1/3 flex-row items-center justify-between">
+          <div className="flex flex-row items-center gap-[4rem]">
             <Link href="/">Home</Link>
             <Link href="/nike-jordan">Nike</Link>
             <Link href="/">Contact</Link>
@@ -69,7 +63,7 @@ const page = () => {
 
           {/* Right */}
           <div className="flex w-1/2 flex-col items-center justify-center gap-6">
-            <h3 className="text-lg uppercase">Hi! What topic are you interested in?</h3>
+            <h3 className="text-lg uppercase">Hi! Which topic are you interested in?</h3>
 
             <div className="flex flex-row flex-wrap justify-center gap-4">
               <Badge title="Art" icon={<PiPalette size={30} />} />
