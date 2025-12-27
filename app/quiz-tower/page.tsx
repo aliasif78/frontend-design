@@ -10,7 +10,7 @@ import Link from 'next/link';
 // Assets
 import bg from './assets/bg.webp';
 
-// Dependencies
+// Icons
 import { FaGithub } from 'react-icons/fa6';
 import { PiPalette, PiFlask, PiCloudSun, PiAtom, PiGlobeHemisphereWest, PiCalculator, PiTranslate, PiPlanet, PiHeartBreak } from 'react-icons/pi';
 
@@ -29,7 +29,7 @@ const page = () => {
 
       <div className="relative z-10 h-[85vh] w-[85vw] overflow-hidden rounded-4xl border border-white bg-white/30 bg-gradient-to-br from-[#984EFF]/30 to-[#DFDBE9]/30 backdrop-blur-[7px]">
         {/* Navbar */}
-        <div className="absolute top-0 left-0 flex w-full flex-row items-center justify-between px-8 py-4">
+        <nav className="absolute top-0 left-0 flex w-full flex-row items-center justify-between px-8 py-4">
           {/* Title */}
           <h2 className="text-2xl font-bold">QuizTower</h2>
 
@@ -45,7 +45,7 @@ const page = () => {
             <FaGithub className="text-2xl" />
             Github
           </button>
-        </div>
+        </nav>
 
         {/* Main Content */}
         <div className="flex h-full w-full flex-row items-center justify-between px-[4rem]">
