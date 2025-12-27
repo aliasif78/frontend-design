@@ -17,7 +17,7 @@ const FinalCTA = () => {
         <h3 className="bg-gradient-to-b from-[#b8beb8] to-[#3a3b3a] bg-clip-text text-7xl leading-[1.2] font-medium text-transparent">Smarter Finances</h3>
       </div>
 
-      <AnimatedButton text="Get Started Now" className="text-xl" />
+      <AnimatedButton text="Get Started Now" className="z-50 text-xl" />
     </div>
   );
 };

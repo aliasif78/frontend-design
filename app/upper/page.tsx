@@ -15,6 +15,7 @@ import ExpenseReportSection from './components/ExpenseReportSection';
 import IntegrationsSection from './components/IntegrationsSection';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
+import BlogSection from './components/BlogSection';
 
 const page = () => {
   return (
@@ -37,6 +38,7 @@ const page = () => {
           <ThingsUsersLove />
           <ExpenseReportSection />
           <IntegrationsSection />
+          <BlogSection />
           <FinalCTA />
           <Footer />
         </div>

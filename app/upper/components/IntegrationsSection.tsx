@@ -14,11 +14,11 @@ const IntegrationsSection = () => {
         {/* Text */}
         <div className="flex flex-col">
           <h3 className="bg-gradient-to-b from-white to-[#979b97] bg-clip-text text-6xl leading-[1.2] font-medium text-transparent">Integrated with</h3>
-          <h3 className="bg-gradient-to-b from-[#cdd3cd] to-[#696c69] bg-clip-text text-6xl leading-[1.2] font-medium text-transparent">favourited</h3>
+          <h3 className="bg-gradient-to-b from-[#cdd3cd] to-[#696c69] bg-clip-text text-6xl leading-[1.2] font-medium text-transparent">your favourite</h3>
           <h3 className="bg-gradient-to-b from-[#b8beb8] to-[#0f0f0f] bg-clip-text text-6xl leading-[1.2] font-medium text-transparent">softwares</h3>
         </div>
 
-        <AnimatedButton text="Get Started Now" />
+        <AnimatedButton text="Get Started Now" className="text-xl" />
       </div>
 
       {/* Images */}
