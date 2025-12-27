@@ -1,16 +1,20 @@
 // Next JS
 import Link from 'next/link';
+import Image from 'next/image';
 
 // Icons
 import { FaGithub } from 'react-icons/fa6';
 import { RiShoppingCartFill } from 'react-icons/ri';
+
+// Assets
+import logo from '.././assets/logo.png';
 
 const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 z-50 flex w-full flex-row items-center justify-between border-b border-neutral-800 bg-[#020B05] px-8 py-4">
       {/* Title */}
       <span className="flex flex-row items-center gap-2 text-2xl">
-        <FaGithub />
+        <Image src={logo} alt="logo" className="h-10 w-10" />
         <h2 className="-mt-1 font-extrabold">upper</h2>
       </span>
 

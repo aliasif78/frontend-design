@@ -3,14 +3,14 @@
 // Components
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
+import ThingsUsersLove from './components/ThingsUsersLove';
+import DashboardSection from './components/DashboardSection';
 
 // Next JS
 import Image from 'next/image';
 
 // Assets
 import polygons from './assets/polygons.svg';
-import gradient from './assets/gradient.webp';
-import macScreen from './assets/mac-screen.webp';
 
 const page = () => {
   return (
@@ -26,9 +26,12 @@ const page = () => {
         {/* Hero Section */}
         <HeroSection />
 
-        {/* Main Images */}
-        <Image src={gradient} alt="gradient" className="-mt-[25vh] w-full" />
-        <Image src={macScreen} alt="macScreen" className="-mt-[28vh] w-2/3" />
+        {/* Supporting Sections */}
+        <DashboardSection />
+
+        <div className="mt-[10rem] flex flex-col">
+          <ThingsUsersLove />
+        </div>
       </main>
     </div>
   );
