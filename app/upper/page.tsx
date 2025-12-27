@@ -13,6 +13,7 @@ import ThingsUsersLove from './components/ThingsUsersLove';
 import DashboardSection from './components/DashboardSection';
 import ExpenseReportSection from './components/ExpenseReportSection';
 import IntegrationsSection from './components/IntegrationsSection';
+import FinalCTA from './components/FinalCTA';
 
 const page = () => {
   return (
@@ -20,7 +21,7 @@ const page = () => {
       <Navbar />
 
       {/* Main Content */}
-      <main className="relative flex min-h-screen min-w-screen flex-col items-center justify-center pb-[200rem]">
+      <main className="relative flex min-h-screen min-w-screen flex-col items-center justify-center">
         {/* Polygons */}
         <Image src={polygons} alt="polygons" className="absolute top-0 left-0 brightness-150" />
         <Image src={polygons} alt="polygons" className="absolute top-0 right-0 scale-x-[-1] transform brightness-150" />
@@ -35,6 +36,7 @@ const page = () => {
           <ThingsUsersLove />
           <ExpenseReportSection />
           <IntegrationsSection />
+          <FinalCTA />
         </div>
       </main>
     </div>
