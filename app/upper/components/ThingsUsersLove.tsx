@@ -35,7 +35,7 @@ const ThingsUsersLove = () => {
       </div>
 
       {/* Sections */}
-      <div className="flex w-[80vw] flex-col gap-[1rem]">
+      <div className="flex flex-col gap-[1rem]">
         <div className="flex flex-row gap-[1rem]">
           <Section title="Users appreciate Upper's intuitive interface" description="An intuitive interface means that users can quickly understand how to perform tasks without the need for extensive training or guidance." image={earnings} widthClass="w-[60%]" />
           <Section title="Robust reporting capabilities" description="Upper offers robust reporting capabilities, allowing users to generate customized reports." image={income} noImgPadding={true} widthClass="w-[40%]" />

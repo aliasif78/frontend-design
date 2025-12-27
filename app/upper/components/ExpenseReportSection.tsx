@@ -22,7 +22,7 @@ const ExpenseReportSection = () => {
       </div>
 
       {/* Sections */}
-      <div className="flex w-[80vw] flex-col gap-[3rem]">
+      <div className="flex flex-col gap-[3rem]">
         <div className="relative flex flex-row gap-[3rem] overflow-hidden rounded-4xl border border-[#353835] bg-gradient-to-b from-[#1f2321] to-[#020b05] p-[7rem]">
           <Image src={blGradient} alt="gradient" className="absolute inset-0 h-full w-full object-cover" />
           <Image src={sales} alt="earnings" className="z-50 h-auto w-1/2 object-contain" />

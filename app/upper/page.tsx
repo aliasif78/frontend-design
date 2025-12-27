@@ -12,6 +12,7 @@ import HeroSection from './components/HeroSection';
 import ThingsUsersLove from './components/ThingsUsersLove';
 import DashboardSection from './components/DashboardSection';
 import ExpenseReportSection from './components/ExpenseReportSection';
+import IntegrationsSection from './components/IntegrationsSection';
 
 const page = () => {
   return (
@@ -30,9 +31,10 @@ const page = () => {
         {/* Supporting Sections */}
         <DashboardSection />
 
-        <div className="mt-[10rem] flex flex-col gap-[10rem]">
+        <div className="mt-[10rem] flex w-[80vw] flex-col gap-[10rem]">
           <ThingsUsersLove />
           <ExpenseReportSection />
+          <IntegrationsSection />
         </div>
       </main>
     </div>
