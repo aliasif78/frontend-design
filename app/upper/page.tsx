@@ -14,6 +14,7 @@ import DashboardSection from './components/DashboardSection';
 import ExpenseReportSection from './components/ExpenseReportSection';
 import IntegrationsSection from './components/IntegrationsSection';
 import FinalCTA from './components/FinalCTA';
+import Footer from './components/Footer';
 
 const page = () => {
   return (
@@ -32,11 +33,12 @@ const page = () => {
         {/* Supporting Sections */}
         <DashboardSection />
 
-        <div className="mt-[10rem] flex w-[80vw] flex-col gap-[10rem]">
+        <div className="mt-[10rem] flex w-[80vw] flex-col gap-[10rem] pb-[15rem]">
           <ThingsUsersLove />
           <ExpenseReportSection />
           <IntegrationsSection />
           <FinalCTA />
+          <Footer />
         </div>
       </main>
     </div>
