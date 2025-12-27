@@ -1,16 +1,17 @@
 'use client';
 
-// Components
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import ThingsUsersLove from './components/ThingsUsersLove';
-import DashboardSection from './components/DashboardSection';
-
 // Next JS
 import Image from 'next/image';
 
 // Assets
 import polygons from './assets/polygons.svg';
+
+// Components
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import ThingsUsersLove from './components/ThingsUsersLove';
+import DashboardSection from './components/DashboardSection';
+import ExpenseReportSection from './components/ExpenseReportSection';
 
 const page = () => {
   return (
@@ -29,8 +30,9 @@ const page = () => {
         {/* Supporting Sections */}
         <DashboardSection />
 
-        <div className="mt-[10rem] flex flex-col">
+        <div className="mt-[10rem] flex flex-col gap-[10rem]">
           <ThingsUsersLove />
+          <ExpenseReportSection />
         </div>
       </main>
     </div>

@@ -9,12 +9,12 @@ import { PiArrowRightBold } from 'react-icons/pi';
 
 const AnimatedButton = ({ text }: { text: string }) => {
   return (
-    <button className="group relative flex cursor-pointer flex-row items-center justify-center gap-2 overflow-hidden rounded-none border border-[#333a33] bg-[#214b3b]/20 px-6 py-3 text-base transition duration-300">
+    <button className="group relative flex w-fit cursor-pointer flex-row items-center justify-center gap-2 overflow-hidden rounded-none border border-[#333a33] bg-[#214b3b]/20 px-6 py-3 text-base transition duration-300">
       {/* Static right half of top border */}
       <span className="absolute top-0 left-1/2 h-[2px] w-16 rounded-r-full bg-gradient-to-r from-[#6FFFD4]/20 to-[#6FFFD4]"></span>
 
       {/* Animated left half of top border - expands right */}
-      <span className="absolute top-0 left-[80%] h-[2px] w-0 rounded-r-full bg-[#6FFFD4] transition-all duration-200 ease-out group-hover:w-10 group-hover:delay-[0ms]"></span>
+      <span className={`absolute top-0 ${text.length <= 10 ? 'left-[90%] group-hover:w-4' : 'left-[80%] group-hover:w-10'} h-[2px] w-0 rounded-r-full bg-[#6FFFD4] transition-all duration-200 ease-out group-hover:delay-[0ms]`}></span>
 
       {/* Animated right border - expands down with curve */}
       <span className="absolute top-0 right-0 h-0 w-[2px] origin-top rounded-br-full bg-[#6FFFD4] transition-all duration-150 ease-out group-hover:h-full group-hover:delay-[200ms]"></span>
