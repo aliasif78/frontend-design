@@ -66,6 +66,13 @@ const Footer = () => {
             <PiLinkedinLogoFill type="button" className="cursor-pointer" size={24} />
           </span>
         </div>
+
+        <div className="text-[#F1F1EF]/70">
+          Icons by{' '}
+          <a href="https://lordicon.com/" target="_blank" rel="noopener noreferrer">
+            Icons by Lordicon.com
+          </a>
+        </div>
       </div>
     </footer>
   );

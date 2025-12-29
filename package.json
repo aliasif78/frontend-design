@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@lordicon/react": "^1.11.0",
+    "lord-icon-element": "^4.1.2",
+    "lottie-web": "^5.13.0",
     "next": "^16.1.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
