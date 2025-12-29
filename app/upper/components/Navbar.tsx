@@ -29,7 +29,7 @@ const Navbar = () => {
       <span className="flex flex-row items-center gap-6">
         <RiShoppingCartFill type="button" className="cursor-pointer" size={20} />
 
-        <button className="flex cursor-pointer flex-row items-center justify-center gap-2 rounded-full border border-[#214b3b] px-4 py-2 transition duration-300 hover:bg-[#214b3b]">
+        <button className="flex cursor-pointer flex-row items-center justify-center gap-2 rounded-full border border-[#2a604c] px-4 py-2 transition duration-300 hover:bg-[#2a604c]">
           <FaGithub size={20} />
           Github
         </button>

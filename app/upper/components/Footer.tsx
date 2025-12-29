@@ -30,7 +30,7 @@ const Footer = () => {
             <h2 className="text-4xl font-bold">upper</h2>
           </div>
 
-          <span className="text-lg">Upper, a complete solution for businesses looking to build professional website.</span>
+          <span className="text-lg">A complete solution for businesses looking to build professional website.</span>
 
           <div className="flex flex-row items-center justify-center gap-2 rounded-lg bg-[#0C150F] p-[1rem]">
             <PiCaretCircleDownFill size={36} className="text-[#F1F1EF]/50" />
@@ -38,7 +38,7 @@ const Footer = () => {
             <button className="cursor-pointer rounded-md bg-gradient-to-b from-[#1f2321] to-[#020B05] px-4 py-2 hover:bg-gradient-to-r hover:from-[#1f2321] hover:to-[#020B05]">Submit</button>
           </div>
 
-          <span>Subscribe to our newsletter</span>
+          <span className="text-[#F1F1EF]/70">Subscribe to our newsletter</span>
         </div>
 
         {links.map((link, index) => (
@@ -46,7 +46,9 @@ const Footer = () => {
             <h2 className="mb-2 text-lg font-medium">{link.title}</h2>
 
             {link.links.map((link, index) => (
-              <span key={index}>{link}</span>
+              <span key={index} className="cursor-pointer text-[#F1F1EF]/70 hover:text-white">
+                {link}
+              </span>
             ))}
           </div>
         ))}
@@ -55,13 +57,13 @@ const Footer = () => {
       <div className="flex flex-col gap-2">
         <div className="h-0.5 w-full bg-[#F1F1EF]/10"></div>
 
-        <div className="flex flex-row items-center justify-between gap-2">
+        <div className="flex flex-row items-center justify-between gap-2 text-[#F1F1EF]/70">
           <span>© 2025 Upper. All rights reserved.</span>
 
           <span className="flex flex-row gap-2">
-            <PiFacebookLogoFill className="text-[#F1F1EF]/70" size={24} />
-            <PiXLogoFill className="text-[#F1F1EF]/70" size={24} />
-            <PiLinkedinLogoFill className="text-[#F1F1EF]/70" size={24} />
+            <PiFacebookLogoFill type="button" className="cursor-pointer" size={24} />
+            <PiXLogoFill type="button" className="cursor-pointer" size={24} />
+            <PiLinkedinLogoFill type="button" className="cursor-pointer" size={24} />
           </span>
         </div>
       </div>
