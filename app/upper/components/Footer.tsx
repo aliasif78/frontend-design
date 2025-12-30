@@ -67,12 +67,9 @@ const Footer = () => {
           </span>
         </div>
 
-        <div className="text-[#F1F1EF]/70">
-          Icons by{' '}
-          <a href="https://lordicon.com/" target="_blank" rel="noopener noreferrer">
-            Icons by Lordicon.com
-          </a>
-        </div>
+        <a href="https://lordicon.com/" target="_blank" rel="noopener noreferrer" className="text-[#F1F1EF]/70">
+          Animated icons by Lordicon.com
+        </a>
       </div>
     </footer>
   );
