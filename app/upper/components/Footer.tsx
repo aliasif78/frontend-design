@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 // Assets
 import logo from '.././assets/logo.png';
-import { PiCaretCircleDownFill, PiFacebookLogoFill, PiLinkedinLogoFill, PiXLogoFill } from 'react-icons/pi';
+import { PiEnvelopeSimple, PiFacebookLogoFill, PiLinkedinLogoFill, PiXLogoFill } from 'react-icons/pi';
 
 const Footer = () => {
   const links = [
@@ -33,7 +33,7 @@ const Footer = () => {
           <span className="text-lg">A complete solution for businesses looking to build professional website.</span>
 
           <div className="flex flex-row items-center justify-center gap-2 rounded-lg bg-[#0C150F] p-[1rem]">
-            <PiCaretCircleDownFill size={36} className="text-[#F1F1EF]/50" />
+            <PiEnvelopeSimple size={36} className="text-[#F1F1EF]/50" />
             <input type="text" className="w-full bg-transparent outline-none" placeholder="Enter your email" />
             <button className="cursor-pointer rounded-md bg-gradient-to-b from-[#1f2321] to-[#020B05] px-4 py-2 hover:bg-gradient-to-r hover:from-[#1f2321] hover:to-[#020B05]">Submit</button>
           </div>

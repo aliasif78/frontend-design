@@ -24,9 +24,15 @@ const Navbar = () => {
 
       {/* Links */}
       <div className="flex flex-row items-center gap-[4rem]">
-        <Link href="/">Home</Link>
-        <Link href="/nike-jordan">Nike</Link>
-        <Link href="/quiz-tower">Quiz Tower</Link>
+        <Link href="/" className="transition duration-300 hover:text-amber-200">
+          Home
+        </Link>
+        <Link href="/nike-jordan" className="transition duration-300 hover:text-amber-200">
+          Nike
+        </Link>
+        <Link href="/quiz-tower" className="transition duration-300 hover:text-amber-200">
+          Quiz Tower
+        </Link>
       </div>
 
       {/* Button */}
